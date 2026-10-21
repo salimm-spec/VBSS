@@ -1,1 +1,9 @@
-In wireless networks, the agile nature of the wireless channel is prone to different types of attacks. An attacker may jam the signal or sniff the transmitted information. In this paper, an enhancement to frequency hopping spread spectrum is proposed. We introduce a variable band spread spectrum (VBSS), which adds complexity to circumvent listening or tracking frequency hopping. The results show at 15 dB, the BERs are 0.14E-3, 0.37E-3, and 0.7E-3 for 2, 3 and 5 users respectively, while attacker’s BER is approximately 0.5 for all scenarios. This shows how the attacker model suffers to find the correct sequence in lower signal to noise ratio (SNR). In addition, the results show a full comparison of the proposed model against orthogonal frequency division multiplexing (OFDM) and frequency hopping techniques. The comparison shows that VBSS behaved equally as FHSS and OFDM in legitimate users, while the normal OFDM curve of BER starts to descend after SNR=5 dB in Eavesdropper.
+%% Khalid W. Hameed  && Salim A. Mohammed ALi
+
+this project contains the following files 
+
+1- VBSS_No_Observation_Main is used to generate BER performance of legetimate users (2, 3, and 5 users scenarios)
+2-VBSS_Observation_Main.m is used to generate Eve Performance (Detection , Association and recovery ) for three scenarios (2, 3 and 5 users)
+3-  Table_generation_My.m is used to generate the allocation table
+4- RS_curves_2.m is used to generate gues limited secrecy rate curves 
+5- the other files are supplementary functions 
